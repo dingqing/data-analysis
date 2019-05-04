@@ -17,10 +17,10 @@ rate_group = city['rate']
 city_com = city['city'].agg(['count'])
 city_com.reset_index(inplace=True)
 # data_map = [[city_com['city'][i],city_com['count'][i]] for i in range(0,city_com.shape[0])]
-data_map = [list(z) for z in zip(city_com['city'],city_com['count'])]
-for n, v in enumerate(data_map):
-    if Geo().get_coordinate(v[0])==None:
-        data_map.pop(n)
+
+# 影评用户所在城市名称不存在于pyecharts城市库里面时，需要移除，否则报错
+# https://github.com/pyecharts/geo-region-coords
+data_map = [list(v) for v in zip(city_com['city'],city_com['count']) if v[0] in Geo()._coordinates]
 # print(data_map)
 
 def geo_base() -> Geo:

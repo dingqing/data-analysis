@@ -28,7 +28,7 @@ def parse_one_page(html):
 #保存数据到文本文档
 def save_to_txt():
     exist=set()
-    for i in range(1, 800):
+    for i in range(1, 500):
         url='http://m.maoyan.com/mmdb/comments/movie/341516.json?_v_=yes&offset=' + str(i)
         html = get_one_page(url)
         print('正在保存第%d页.'% i)
