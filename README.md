@@ -27,10 +27,12 @@
     运行结果保存在/out目录
     ```
 ### 机器学习
-- [决策树](./machine-learning/decisionTree.py)
-- 随机森林
-- 逻辑回归
-- SVM
+- [机器学习笔记](https://www.processon.com/view/link/5ccef770e4b085d010905bc0)
+- 分类算法
+    - [决策树](./machine-learning/decisionTree.py)
+    - 随机森林
+    - 逻辑回归
+    - SVM
 ### 深度学习
 - DNN
 - CNN
