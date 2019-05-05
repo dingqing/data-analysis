@@ -2,8 +2,17 @@
 数据分析练习
 
 
+### 理论基础
+- [机器学习笔记](https://www.processon.com/view/link/5ccef770e4b085d010905bc0)
+- [爬虫笔记](crawler/crawler.md)
+
 ### 爬虫
-- [爬虫](crawler/crawler.md)
+- [Scrapy使用](crawler/scrapy-practice.md)
+- 爬取猫眼电影排行（Request与正则表达式）
+- 爬取淘宝商品（Selenium）
+- 爬取微信公众号文章（使用代理）
+- 爬取Github（模拟登录）
+- 爬取微信朋友圈（Appium）
 ### 数据预处理
 - [数据预处理](./pre-process/pre-process.py)
     1. 缺失值处理
@@ -27,12 +36,10 @@
     运行结果保存在/out目录
     ```
 ### 机器学习
-- [机器学习笔记](https://www.processon.com/view/link/5ccef770e4b085d010905bc0)
-- 分类算法
-    - [决策树](./machine-learning/decisionTree.py)
-    - 随机森林
-    - 逻辑回归
-    - SVM
+- [决策树](./machine-learning/decisionTree.py)
+- 随机森林
+- 逻辑回归
+- SVM
 ### 深度学习
 - DNN
 - CNN
