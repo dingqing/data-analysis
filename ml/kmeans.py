@@ -4,8 +4,6 @@ import random
 
 """
 Implementation of the K-means algorithm
-for the book A Programmer's Guide to Data Mining"
-http://www.guidetodatamining.com
 """
 
 def getMedian(alist):
