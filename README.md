@@ -7,11 +7,6 @@
 类型 | 应用
 --- | ---
 爬虫 | [Scrapy使用](crawler/README.md)
-&nbsp; | 爬取猫眼电影排行（Request与正则表达式）
-&nbsp; | 爬取淘宝商品（Selenium）
-&nbsp; | 爬取微信公众号文章（使用代理）
-&nbsp; | 爬取Github（模拟登录）
-&nbsp; | 爬取微信朋友圈（Appium）
 可视化 | [影评分析](./film-reviews/README.md)（热力图+柱状图+词云）
 
 - 机器学习
@@ -19,9 +14,12 @@
 类型 | 应用
 --- | ---
 监督学习 | 逻辑回归
+&nbsp; | 贝叶斯
 &nbsp; | SVM
 集成思想 | 决策树
 &nbsp; | 随机森林
+无监督学习 | [k-means](./ml/kmeans.py)
+&nbsp; | [层次聚类](./ml/hierarchicalClusterer.py)
 
 - 深度学习
 
